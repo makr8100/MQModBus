@@ -1,0 +1,67 @@
+==============================================================================
+AQModBus v0.1 - Copyright © 2011 Mark Gullings http://www.makrit.net
+==============================================================================
+
+Licensing:
+
+AQModBus is nearly a complete ripoff of QModBus © 2009 - Tobias Doerffel- http://qmodbus.sourceforge.net
+It incorporates libmodbus © 2001-2008 - Stéphane Raimbault - http://www.libmodbus.org
+And incorporates QLedMatrix © 2009 Pierre-Etienne Messier - http://pemessier.hexpresso.org
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public
+License as published by the Free Software Foundation; either
+version 2 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
+
+You should have received a copy of the GNU General Public
+License along with this program (see COPYING); if not, write to the
+Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+Boston, MA 02110-1301 USA.
+
+==============================================================================
+
+Use of AQModBus:
+
+AQModBus was designed to provide a portable mobile ModBus debug application
+for the Android platform, ideally on smartphones and tablets.  It has been
+tested to run on Android AVD emulators, an Android phone (HTC Aria), Linux
+(openSUSE 11.4 64-bit), Symbian emulator, and Maemo emulator.  To submit bug
+reports, feature requests, and add to the known hardware compatibility list
+(HCL), email Mark at makr@makrit.net and include AQModBus in the subject line.
+Currently ModBus TCP is the only implementation, and that is not expected to
+change, although it may if there is enough demand.
+
+I cannot guarantee AQModBus will work on your phone, nor can I guarantee that
+it will be suitable to use on your ModBus platform.  Never use a critical
+system to test an application.  To install on an Android device make sure to
+install Qt libraries first by searching Ministro in the Android Market.  If
+you ran Ministro and think it crashed it probably didn't, as it is only used
+to check/download the Qt libraries, and then exits without feedback to the
+user.  If you have a different platform we assume you know how to install the
+required libraries yourself.
+
+AQModBus in its current state is only useful for testing the design and
+implementation of a ModBus system, and is not suitable for runtime.
+
+Theoretically this program could run on Windows Mobile as well, but I have not
+compiled it yet nor are there plans to in the future.  Anyone is welcome to
+submit a packaged version for any platform they wish.
+
+==============================================================================
+
+Future Development:
+
+* UI Themes
+* There are no plans to include serial port support at this time
+    If someone actually has a mobile platform that needs serial support
+    please submit a feature request
+* something else but I forgot
+* whatever
+* ___________________
+
+[really this is about all I expected the program to do, so I'm waiting on feedback]

@@ -19,7 +19,8 @@ HEADERS         += aqmodbus.h \
                 libmodbus/modbus.h \
                 QLedMatrix-0.6/qledmatrix.h
 
-INCLUDEPATH     += libmodbus
+INCLUDEPATH     += libmodbus \
+                QLedMatrix-0.6
 
 FORMS           += aqmodbus.ui \
                 modbussettings.ui
